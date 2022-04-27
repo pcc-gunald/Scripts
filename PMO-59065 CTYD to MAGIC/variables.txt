@@ -1,0 +1,23 @@
+PMO 59065
+PMOGroupID = 1773
+TST-1119
+Source:
+wessessioninfo_www24
+CTYD
+143GB
+[pccsql-use2-prod-w24-cli0014.ce22455c967a.database.windows.net].[us_ctyd]
+[pccsql-use2-prod-ssv-tscon05.b4ea653240a9.database.windows.net].[test_usei1172]
+Courtyard Healthcare Center - FacID: 1
+
+
+
+
+Dest:
+MAGIC
+wessessioninfo_www22
+[pccsql-use2-prod-w22-cli0006.4c4638f8e26f.database.windows.net].[us_magic_multi]
+[pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net].[test_usei432]
+262GB
+Courtyard Healthcare Center - FacID: 39
+
+E7d: MMQ, E7e: MMA, E16: Alert, E18: Trust, E19a: IRM, E19b: IRM, E23: Notes

@@ -1,0 +1,16 @@
+PMO_GROUP_ID 1742
+src
+[pccsql-use2-prod-ssv-tscon05.b4ea653240a9.database.windows.net].[test_usei740]
+[pccsql-use2-prod-w24-cli0019.ce22455c967a.database.windows.net].[us_prqc_multi].dbo.facility
+
+wessessioninfo_www24
+4.4.7.3_Z
+442 GB
+
+targ
+[pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net].[test_usei1104]
+
+[pccsql-use2-prod-w22-cli0007.4c4638f8e26f.database.windows.net].[us_dhm_multi].dbo.facility
+wessessioninfo_www22
+4.4.7.3_Z
+195 GB

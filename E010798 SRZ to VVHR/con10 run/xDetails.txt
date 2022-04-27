@@ -1,0 +1,6 @@
+PMO010798 cmc to PLN 
+
+test_usei984 > test_usei23	
+
+Case#	SrcFac	DstFac
+01079812	40	1

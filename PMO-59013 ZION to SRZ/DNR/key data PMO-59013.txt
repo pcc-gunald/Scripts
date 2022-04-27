@@ -1,0 +1,45 @@
+TST-1094
+PMO-59013
+PMO_GROUPIID - 1763
+ZION to SRZ
+**********************SOURCE***************************************
+
+org code = ZION
+
+live db = us_zion_multi
+
+live server = pccsql-use2-prod-w26-cli0026.d9c23db323d7.database.windows.net
+[pccsql-use2-prod-w26-cli0026.d9c23db323d7.database.windows.net].us_zion_multi
+
+size = 39   
+
+fac id = Zion - 29 ; Blanco - 32
+
+test db => test_usei1058         usei1058
+
+test server => pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1058]
+
+***********************************DESTINATION************************************
+org code = SRZ 
+
+live db = us_srz_multi
+
+live server = pccsql-use2-prod-w22-cli0006.4c4638f8e26f.database.windows.net
+[pccsql-use2-prod-w22-cli0006.4c4638f8e26f.database.windows.net].[us_srz_multi]
+
+size = 319
+
+fac id =  Zion - 29 ; Blanco - 30
+
+test db => test_usei1122      usei1122
+
+test server => pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net
+[pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net].usei1122
+
+
+
+update jira
+send photos and online docs case number - email that is sent 30 minutes before go live 
+
+13--86

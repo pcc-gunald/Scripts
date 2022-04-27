@@ -1,0 +1,14 @@
+{
+"output_file_path" :"./",
+"src_fac_ids" :"1,2,5",
+"dst_fac_ids" :"192,193,194",
+"src_prod_server" :"[pccsql-use2-prod-w24-cli0019.ce22455c967a.database.windows.net].[us_prqc_multi]",
+"dst_prod_server" :"[pccsql-use2-prod-w22-cli0007.4c4638f8e26f.database.windows.net].[us_dhm_multi]",
+"src_test_server" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1029]",
+"dst_test_server" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei41]",
+"current_residents_discharge_date" : "",
+"reg_ids" :"1,2",
+"case_number_root" :"58899",
+"pmo_number": "58899"
+}
+

@@ -1,0 +1,49 @@
+902	1234
+010798  58111
+FVE	FVE
+usei23	OSL
+[pccsql-use2-prod-w31-cli0001.90c2966cd166.database.windows.net].us_cmc_multi	[pccsql-use2-prod-w31-cli0001.90c2966cd166.database.windows.net].us_cmc_multi
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].test_usei23	[pccsql-use2-prod-w21-cli0005.f352397940df.database.windows.net].us_osl_multi
+504954576	49495314
+40	13,14,40
+1	21,40,23
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].test_usei984	[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].test_usei984
+pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net	pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net
+test_usei984	test_usei984
+usei1188	usei1188
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].test_usei23	[pccsql-use2-prod-ssv-tscon05.b4ea653400a9.database.windows.net].test_usei630
+pccsql-use2-prod-ssv-tscon05.b4ea653400a9.database.windows.net	pccsql-use2-prod-ssv-tscon05.b4ea653400a9.database.windows.net
+test_usei23	test_usei630
+usei23	usei630
+__CURRESDATE__	all
+01079812	5811121
+40	13
+1	21
+010798798	5811140
+26	14
+28	40
+01079863	5811123
+17	40
+63	23
+01079864	
+64	
+40	
+01079865	
+65	
+65	
+01079866	
+11	
+66
+	
+	
+__HOPSCASENUMBER__	1678891
+__JOBCASENUM__	2399910
+26th Nov, 2021	40th Aug, 2019
+Thursday	Thursday
+1 am to 19th Nov, 2021 8 am 	12 am to 4 am
+Millcroft - SNF, Millcroft AL/IL, Shipley Manor - SNF, Shipley Manor - AL/IL, Foulk Manor North - AL/IL, Foulk Manor North - SNF	
+	
+	
+__RUNID__	1234
+__VENDORCODE__	omnidx, omnialf
+__MESSAGEPROFILEID__	17

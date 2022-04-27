@@ -1,0 +1,18 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/PMO-59132  JAG to ELCC/Mappings/",
+"src_fac_id" :"8",
+"dst_fac_id" : "34",
+"srcServer" :"[pccsql-use2-prod-w25-cli0017.2d62ac5c7643.database.windows.net].[us_jag_multi]",
+"src_size" : 146,
+"dstServer" :"[pccsql-use2-prod-w20-cli0007.3055e0bc69f6.database.windows.net].[us_elcc_multi]",
+"dst_size" : 281,
+"startdate" :"2021-10-21",
+"dst_regid" :"1",
+"srcPrefix":"JAG",
+"dstPrefix":"ELCC",
+"CaseNumber" :"EICase59132_P2",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei998]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei44]",
+"PMOGroupId": 1807
+}
+

@@ -1,0 +1,30 @@
+SERET
+E007858
+
+TST-1082
+PMO-GROUP-ID 1764
+
+source
+----------
+Orgid -1504967118 
+Fac -2
+Reg id -2 
+[pccsql-use2-prod-w19-cli0006.3055e0bc69f6.database.windows.net].[us_seret_multi]
+[pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net].[test_usei639]
+
+
+4.4.7.3_Z
+
+10GB
+
+
+
+dest
+---------------------
+[pccsql-use2-prod-w25-cli0022.2d62ac5c7643.database.windows.net].[us_main_multi]
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1015]
+4.4.7.3_Z
+24
+
+
+E7d: MMQ, E7e: MMA, E19a: IRM, E19b: IRM

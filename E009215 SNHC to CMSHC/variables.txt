@@ -1,0 +1,28 @@
+
+E009215
+TST-1231
+PMO-GROUPID: 1788
+
+Whispering Oak Place (snhc-48)->86
+Garden View Place (snhc-53)->87
+Apple Creek Place (snhc-72)->88
+Arbor Garden Place (snhc-87)->89
+Harmony Place (snhc-88)->90
+
+Source:
+
+wessessioninfo_www21
+[pccsql-use2-prod-w21-cli0001.f352397924df.database.windows.net].[us_snhc_multi]
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1029]
+
+154GB
+
+
+
+Dest:
+
+wessessioninfo_www21
+[pccsql-use2-prod-w21-cli0002.f352397924df.database.windows.net].[us_cmshc_multi]
+[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei41]
+
+17GB

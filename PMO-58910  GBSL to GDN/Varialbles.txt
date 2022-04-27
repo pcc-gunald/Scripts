@@ -1,0 +1,74 @@
+PMO 58910
+PMO-Goup 1746
+GBSL to GDN, 1 facility
+source
+[pccsql-use2-prod-w26-cli0018.d9c23db323d7.database.windows.net].[us_gbsl_multi]
+[pccsql-use2-prod-ssv-tscon05.b4ea653240a9.database.windows.net].[test_usei548]
+[pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net].[test_usei671]
+
+reg_id =2
+fac_id=1067
+
+
+wessessioninfo_www26
+4.4.7.3_Z
+101 GB
+
+
+Target
+
+[pccsql-use2-prod-w25-cli0021.2d62ac5c7643.database.windows.net].[us_gdn_multi]
+[pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net].[test_usei1072]
+fac_id 59
+wessessioninfo_www25
+4.4.7.3_Z
+312 GB
+
+58910$gDn#
+
+
+DELETE
+FROM esl_configuration_param
+
+-- end of adding
+/*
+Added By: Jaspreet Singh
+Date: 01-07-2019
+Reason: Rina email, subject: Adding new table "Consistency_Audit"
+*/
+UPDATE facility
+SET timeout_minutes = 15
+WHERE deleted = 'N'
+
+/*
+-- added By Jaspreet Singh on 2018-03-27 as per request from Ann (email subject: FW: Active IAR integrations in Test dbs)
+-- Related JIRA for script https://jira.pointclickcare.com/jira/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FPCC-109360&page_caps=&user_role=
+*/
+DELETE configuration_parameter
+WHERE NAME IN (
+		'as_effectivedate_iarconsent'
+		,'as_enable_iarconsent'
+		,'as_enable_iarconsent_ccim_organization_id'
+		,'as_enable_iarconsent_ccim_organization_name'
+		,'as_enable_iarconsent_password'
+		,'as_enable_iarconsent_revisionby'
+		,'as_enable_iarconsent_revisiondate'
+		,'as_enable_iarconsent_url'
+		,'as_enable_iarconsent_username'
+		,'as_iar_collect_consent_date'
+		)
+
+--end of adding
+/**********************************************************
+****Added By: Jaspreet Singh
+****Date: 2020-10-27
+****Requested By: Nigel, email subject: Sent from Snipping Tool
+******************************************************/
+UPDATE configuration_parameter
+SET [value] = 'N'
+WHERE [name] = 'ghc_hosted_optima'
+	AND [value] = 'Y'
+
+--========================================================================================================================
+--*** Disable integration has been successfully ran on test_usei548
+-----------------------------------------------------------

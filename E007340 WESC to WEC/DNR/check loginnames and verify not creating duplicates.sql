@@ -1,0 +1,67 @@
+-- update src, dst and fac_id for all queries
+-- update suffix in line 14
+
+/*
+Step 1 - Store the usernames you plan to create in dest
+*/
+drop table if exists #temp_dupusers
+
+SELECT src.fac_id AS 'srcFacID'
+	,src.long_username AS 'srcUsername'
+	,src.loginname AS 'srcLoginname'
+	,dst.long_username AS 'dstUsername'
+	,dst.loginname AS 'dstLoginname'
+	,left(dst.loginname, 60-len('WSGC'))  + 'WSGC' AS 'dstNewLoginname'  -- update suffix to be used...org code, number, or whatever else the client has decided
+INTO #temp_dupusers
+FROM [pccsql-use2-prod-w30-cli0012.cbafa2b80e84.database.windows.net].us_wsgc.dbo.sec_user src -- update src server & org
+JOIN [pccsql-use2-prod-w30-cli0015.cbafa2b80e84.database.windows.net].us_wec_multi.dbo.sec_user dst ON src.loginname = dst.loginname -- update dst server & org
+	AND src.long_username <> dst.long_username
+	AND src.fac_id IN (4) -- update fac_ids
+
+
+/*
+Step 2 - Determine if there are already those loginnames in dest
+- if any rows are returned by this query, repeat Step 1 with a different suffix 
+- repeat until this query doesn't return any users
+*/
+select 'CREATING THE FOLLOWING DUPLICATES...CHOOSE A NEW SUFFIX','','',''
+union
+select
+	src.srcUsername
+	,src.srcLoginname
+	,dst.long_username AS 'dstUsername'
+	,dst.loginname AS 'dstLoginname'
+from #temp_dupusers src
+JOIN [pccsql-use2-prod-w30-cli0015.cbafa2b80e84.database.windows.net].us_wec_multi.dbo.sec_user dst ON src.dstNewLoginname = dst.loginname -- update dst server & org
+order by 2
+
+/*
+Step 3 - Once you've found a suffix that doesn't create duplicates, execute this and copy the results into a new spreadsheet on your local machine
+*/
+
+SELECT src.fac_id AS 'Fac ID in WSGC' -- update field name
+	,src.long_username AS 'long_username in WSGC' -- update field name
+	,src.loginname AS 'loginname in WSGC' -- update field name
+	,left(src.loginname, 60 - len('WSGC')) + 'WSGC' AS 'new loginname in WEC' -- update field name
+FROM [pccsql-use2-prod-w30-cli0012.cbafa2b80e84.database.windows.net].us_wsgc.dbo.sec_user src -- update src server & db
+JOIN [pccsql-use2-prod-w30-cli0015.cbafa2b80e84.database.windows.net].us_wec_multi.dbo.sec_user dst ON src.loginname = dst.loginname -- update dst server & db
+	AND src.long_username <> dst.long_username
+	AND src.fac_id IN (4) -- update fac ids
+
+--------------------------------------------------------------------------------------------------------------
+	select * from [pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].test_usei34.dbo.sec_user 
+	where loginname like '%WSGC'
+
+
+	select * from [pccsql-use2-prod-w30-cli0012.cbafa2b80e84.database.windows.net].us_wsgc.dbo.sec_user
+	where long_username in ('Adashia Hart','Alexis Hart','Audrey Harris','Alex Hall','Adeela Hammons','Alysa Harman','Ann Hall','Aminah Harut','Ayesha Harper','Angela Hart','Amy Hahn','Ashley Havel','Angelena Harris','Ariel Hagemaster','WSGC.WSGCwkins21','Amanda Hancock','Arzula Haskell','Aspen Hanks','Amanda Harden','Archelle Hanner','Angela Haigh','Amy Haligan','Alexes Hall','Angela Hammond','Altomese Harrison','Adrian Harris','Amber Hanson','Amy Hang','Alexanderea Hamilton','Angela Hardy','Amy Hannan','Ana Harris','Allison Halley','Ayalnesh Haile','April Hagl','Anthony Hardrick','Alicia Hartner','Annalee Hassenplug','Airreol Harman','Anna Haba','Alicia Harris18','Alitha Hawkins','Alissa Haynes','Annie Harvey','Akou Hayibo','Akou Hayibo','Amanda Hammond','Amanda Hamilton','April Harmon','Ashley Harris','Angela Hatcher','Alicia Hamm','Alysia Hart','Allison Hamilton','Angie Harris','Amber Hammel','Adrianne Hathaway')
+
+	select long_username, loginname into #temp from 
+	[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].test_usei34.dbo.sec_user 
+	where loginname like 'WSGC%'
+
+
+	select * from #temp2 
+
+	select * from #temp a
+	where not exists(select 1 from #temp2 where [long_username in WSGC]=a.long_username)

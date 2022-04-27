@@ -1,0 +1,23 @@
+PMO-58872
+[PMO_Group_Id] 1733
+case no 588721
+Fc_id 6->68
+Source
+Server: [pccsql-use2-prod-ssv-tscon06.b4ea653240a9.database.windows.net].[test_usei630]
+[pccsql-use2-prod-w27-cli0023.851c37dfbe45.database.windows.net].[us_orch_multi]
+
+wessessioninfo_www27
+
+90
+
+Target
+
+Srever : [pccsql-use2-prod-w24-cli0023.ce22455c967a.database.windows.net].[us_hand_multi]
+[pccsql-use2-prod-ssv-tscon05.b4ea653240a9.database.windows.net].[test_usei587]
+
+
+wessessioninfo_www24
+699
+
+Excluded:
+E14: Security Roles, E15: Security Users, E7d: MMQ, E7e: MMA, E19a: IRM, E19b: IRM, E21: Results Lab, Radiology

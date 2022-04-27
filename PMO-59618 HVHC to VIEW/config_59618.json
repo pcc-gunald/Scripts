@@ -1,0 +1,27 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/PMO-59618 HVHC to VIEW/Mappings/",
+"src_fac_id" :"4",
+"dst_fac_id" : "2",
+"srcServer" :"[pccsql-use2-prod-w26-cli0003.d9c23db323d7.database.windows.net].[us_hvhc_multi]",
+"src_size" : 251,
+"dstServer" :"[pccsql-use2-prod-w27-cli0027.851c37dfbe45.database.windows.net].[us_view]",
+"dst_size" : 61,
+"startdate" :"2021-10-21",
+"src_Region_ID" :"1",
+"dst_regid" :"1",
+"srcPrefix":"HVHC",
+"dstPrefix":"VIEW",
+"CaseNumber" :"EICase59618",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei963]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei45]",
+"PMOGroupId": 1852,
+"goLiveStart" : "13/Apr/22 2:00 PM",
+"goLiveEnd" : "14/Apr/22 2:00 AM",
+"pmo_number" : "59618",
+"photo_case_number" : "1994666",
+"tst" : "1504",
+"recepients" : "gunald@pointclickcare.com",
+"exclude_module_list" : ""
+"mapping": "\\STUSPAINFCIFS.pccprod.local\DS\LocalBackup\EI_Mapping_Files\PMO59618\"
+}
+

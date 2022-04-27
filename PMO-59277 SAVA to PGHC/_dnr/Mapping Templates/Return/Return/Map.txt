@@ -1,0 +1,7 @@
+PMO-59277_AdminPicklist
+
+PMO-59277_ResidentIdentifier
+
+PMO-59277_UserDefinedData
+
+PMO59277_UploadCateogaries

@@ -1,0 +1,20 @@
+source 
+E007283
+server =[pccsql-use2-prod-ssv-tscon05.b4ea653240a9.database.windows.net].[test_usei547]
+[pccsql-use2-prod-w25-cli0023.2d62ac5c7643.database.windows.net].us_hdg_multi
+ww25
+380
+
+Target
+
+Dest server =pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net.[test_usei1062]
+
+[pccsql-use2-prod-w28-cli0007.874bf44c721a.database.windows.net].[us_champ_multi]
+
+360
+
+
+PMO Group id= 1724
+
+
+E7d: MMQ, E7e: MMA, E16: Alert, E18: Trust, E19a: IRM, E19b: IRM, E23: Notes

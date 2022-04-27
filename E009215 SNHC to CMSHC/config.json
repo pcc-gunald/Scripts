@@ -1,0 +1,15 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/E009215 SNHC to CMSHC/Mappings/",
+"src_fac_id" :"48,53,72,87,88",
+"dst_fac_id" : "86,87,88,89,90",
+"srcServer" :"[pccsql-use2-prod-w21-cli0001.f352397924df.database.windows.net].[us_snhc_multi]",
+"dstServer" :"[pccsql-use2-prod-w21-cli0002.f352397924df.database.windows.net].[us_cmshc_multi]",
+"startdate" :"2021-10-21",
+"dst_regid" :"2",
+"srcPrefix":"SNHC",
+"dstPrefix":"CMSHC",
+"CaseNumber" :"EICase009215",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1029]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei41]"
+}
+

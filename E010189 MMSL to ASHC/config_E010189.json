@@ -1,0 +1,26 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/E010189 MMSL to ASHC/Mappings/",
+"src_fac_id" :"11",
+"dst_fac_id" : "35",
+"srcServer" :"[pccsql-use2-prod-w26-cli0006.d9c23db323d7.database.windows.net].[us_mmsl_multi]",
+"src_size" : 95,
+"dstServer" :"[pccsql-use2-prod-w22-cli0013.4c4638f8e26f.database.windows.net].[us_ashc_multi]",
+"dst_size" : 1092,
+"startdate" :"2021-10-21",
+"src_Region_ID" :"1",
+"dst_regid" :"1",
+"srcPrefix":"MMSL",
+"dstPrefix":"ASHC",
+"CaseNumber" :"EICase010189",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei963]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei46]",
+"PMOGroupId": 1829,
+"goLiveStart" : "23/Mar/22 10:00 PM",
+"goLiveEnd" : "24/Mar/22 6:00 AM",
+"pmo_number" : "010189",
+"photo_case_number" : "1994666",
+"tst" : "1325",
+"recepients" : "gunald@pointclickcare.com",
+"exclude_module_list" : "E18,E21,E17,E23"
+}
+

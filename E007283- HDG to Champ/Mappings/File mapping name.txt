@@ -1,0 +1,12 @@
+action code					007330_Action
+status code					007330_Status
+payerfac1					PMO007330_EICase0073301_payermapping_fac_1_to_11
+roomrate					007330_RoomRateType
+
+clinical common code				007330_ClinicalPicklist
+clinical advance				007330_ClinicalAdvanced
+
+admin pick list					007330_AdminPicklist
+upload cat					007330_Upload_Categories
+UDD						007330_UserDefinedData
+Resident id					007330_ResidentIdentifier

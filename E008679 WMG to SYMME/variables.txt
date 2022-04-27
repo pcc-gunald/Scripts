@@ -1,0 +1,25 @@
+E008679
+TST-1149
+
+Source:
+WMG
+523GB
+wessessioninfo_www24
+
+Current Name: TRN Milwaukee LLC. Trinity Village SNF (wmg-14)
+Current Name: Trinity Village ALF (wmg-15)
+Current Name: Trinity Village ILF (wmg-16)
+
+
+[pccsql-use2-prod-w24-cli0019.ce22455c967a.database.windows.net].[us_wmg_multi]
+[pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net].[test_usei1129]
+
+
+
+Dest:
+SYMME
+23GB
+wessessioninfo_www19
+
+[pccsql-use2-prod-w19-cli0005.3055e0bc69f6.database.windows.net].[us_symme_multi]
+[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei1018]

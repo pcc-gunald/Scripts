@@ -1,0 +1,26 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/E010805 ACAC to KHG/Mappings/",
+"src_fac_id" :"1",
+"dst_fac_id" : "13",
+"srcServer" :"[pccsql-use2-prod-w23-cli0020.4ccb146400ac.database.windows.net].[us_acac]",
+"src_size" : 45,
+"dstServer" :"[pccsql-use2-prod-w20-cli0018.3055e0bc69f6.database.windows.net].[us_khg_multi]",
+"dst_size" : 453,
+"startdate" :"2021-10-21",
+"src_Region_ID" :"1",
+"dst_regid" :"1",
+"srcPrefix":"ACAC",
+"dstPrefix":"KHG",
+"CaseNumber" :"EICase010805",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei996]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei34]",
+"PMOGroupId": 1869,
+"goLiveStart" : "09/May/22 8:00 PM",
+"goLiveEnd" : "10/May/22 4:00 AM",
+"pmo_number" : "E010805",
+"photo_case_number" : "1994666",
+"tst" : "1366",
+"recepients" : "gunald@pointclickcare.com",
+"exclude_module_list" : ""
+}
+

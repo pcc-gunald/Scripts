@@ -1,0 +1,18 @@
+{
+"output_file_path" :"//stuspainfcifs/DS/Dataload/TS_FacAcqConfig/DataCopy_to_Existing_Projects/PMO-59212 MKM to CCHH/Mappings/",
+"src_fac_id" :"3",
+"dst_fac_id" : "29",
+"srcServer" :"[pccsql-use2-prod-w26-cli0016.d9c23db323d7.database.windows.net].[us_mkm_multi]",
+"src_size" : 51,
+"dstServer" :"[pccsql-use2-prod-w22-cli0021.4c4638f8e26f.database.windows.net].[us_cchh_multi]",
+"dst_size" : 579,
+"startdate" :"2021-10-21",
+"dst_regid" :"1",
+"srcPrefix":"MKM",
+"dstPrefix":"CCHH",
+"CaseNumber" :"EICase59212",
+"srcServer_test" : "[pccsql-use2-prod-ssv-tscon10.b4ea653240a9.database.windows.net].[test_usei996]",
+"dstServer_test" :"[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei34]",
+"PMOGroupId": 1803
+}
+

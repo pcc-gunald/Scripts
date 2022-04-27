@@ -1,0 +1,25 @@
+TST-1138
+PMO - 59112
+PMO_GROUP_ID - 1778
+
+Source:
+CERTUS 
+197GB
+wessessioninfo_www30
+
+Fac_id :12
+[pccsql-use2-prod-w30-cli0021.cbafa2b80e84.database.windows.net].[us_certus_multi]
+
+[pccsql-use2-prod-ssv-tscon11.b4ea653240a9.database.windows.net].[test_usei1066]
+
+
+Dest:
+BSD
+132GB
+wessessioninfo_www22
+
+Fac_id :18
+[pccsql-use2-prod-w22-cli0005.4c4638f8e26f.database.windows.net].[us_bsd_multi]
+
+[pccsql-use2-prod-ssv-tscon13.b4ea653240a9.database.windows.net].[test_usei35]
+
